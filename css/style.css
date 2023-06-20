@@ -192,11 +192,25 @@ a {
 .pl-10 {
   padding-left: 10px;
 }
+.pl-5 {
+  padding-left: 5px;
+}
 .btn {
   width: 140px;
   height: 40px;
   background: #2B2A4C;
   border-radius: 10px;
+}
+.btn:hover {
+  transition: 0.3s;
+  background: #2B2A4C;
+  color:#FF3838;
+  cursor: pointer;
+}
+a:hover {
+  transition: 0.3s;
+  color:#FF3838;
+  cursor: pointer;
 }
 .w-473 {
   width: 473px;
@@ -214,6 +228,9 @@ a {
   font-weight: bold;
   font-size: 20px;
   line-height: 27px;
+}
+.text-black {
+  color: #2B2A4C;
 }
 .p-home {
   font-weight: 400;
@@ -364,8 +381,14 @@ a {
   background-size: 120% auto; /* Adjust the background size as needed */
   overflow: visible;
 }
+.deco-1,
+.deco-2,
+.deco-3,
+.deco-4 {
+  pointer-events: none;
+}
 .deco-1 {
-  left: 1000px;
+  left: 997px;
   top: -351px;  
 }
 .deco-2 {
@@ -373,12 +396,12 @@ a {
   top: 151px; 
 }
 .deco-3 {
-  left: 1204px;
-  top: 1413px;
+  left: 998px;
+  top: -313px;
 }
 .deco-4 {
-  left: -12px;
-  top: 2792.5px;
+  left: -450px;
+  top: -240.5px;
 }
 /* header .banner :nth-child(2) {
   background: url(../image/green_shoes_header.png) center bottom no-repeat;
@@ -391,6 +414,7 @@ a {
 .mobile-nav {
   display: none;
 }
+
 @media screen and (max-width: 1439px) {
   .deco-1,  .deco-2,  .deco-3, .deco-4 {
    display: none;
