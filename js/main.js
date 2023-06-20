@@ -8,6 +8,8 @@ $(document).ready(function () {
         center:true,
         loop:true,
         dots:true,
+        autoplay:false,
+        mouseDrag: false,
         responsive:{
             0:{
                 items:1
